@@ -24,3 +24,14 @@ elif(c>a and c>b):
     print("c sayisi en buyuktur")
 else:
     print("girilen sayilarin arasinda en buyuk olan yoktur")
+
+
+
+yas=int(input("yasiniz:"))
+if(yas>=18):
+  print("araba ve motor ehliyeti alabilirsiniz.")
+elif(yas>=15):
+  print("motor ehliyeti alabilirsiniz.")
+else:
+ print("hicbir ehliyeti alamazsiniz.")
+  
